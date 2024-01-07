@@ -30,3 +30,7 @@ Description: deletion protection set to false
 # Release 1.0.7
 
 Description: argocd upgraded to 2.3.0
+
+# Release 1.0.8
+
+Description: static ip for ingress and DNS
