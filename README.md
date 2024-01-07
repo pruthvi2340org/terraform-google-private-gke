@@ -2,7 +2,7 @@
 # This module with comes with argo-cd installation
 
 # Release 1.0.0
-Description added with the inital requirements for CD infrastructure creation
+Description added with the initial requirements for CD infrastructure creation
 
 ```
 project_id = ""

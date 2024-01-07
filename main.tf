@@ -1,8 +1,4 @@
 terraform {
-  backend "gcs" {
-    bucket = "retail-demo-app-tf-state"
-    prefix = "retail-demo-app"
-  }
   required_providers {
     google = {
       source = "hashicorp/google"
