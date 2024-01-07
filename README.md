@@ -22,3 +22,11 @@ Description: master authorized network to 0.0.0.0/0
 # Release 1.0.5
 
 Description: added permissions to Kubernetes Service account
+
+# Release 1.0.6
+
+Description: deletion protection set to false
+
+# Release 1.0.7
+
+Description: argocd upgraded to 2.3.0
