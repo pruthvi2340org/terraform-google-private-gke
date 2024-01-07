@@ -34,3 +34,7 @@ Description: argocd upgraded to 2.3.0
 # Release 1.0.8
 
 Description: static ip for ingress and DNS
+
+# Release 1.0.9
+
+Description: Http load balancing enabled
