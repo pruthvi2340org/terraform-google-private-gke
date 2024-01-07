@@ -17,4 +17,8 @@ k8s_service_secondary_cidr ="10.52.0.0/20"
 
 # Release 1.0.4
 
-Description master authorized network to 0.0.0.0/0
+Description: master authorized network to 0.0.0.0/0
+
+# Release 1.0.5
+
+Description: added permissions to Kubernetes Service account

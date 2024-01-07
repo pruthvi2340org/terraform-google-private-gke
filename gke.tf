@@ -19,7 +19,8 @@ resource "google_container_cluster" "primary" {
   node_locations = [
     "us-central1-b"
   ]
-
+  deletion_protection = false
+  
   addons_config {
     http_load_balancing {
       disabled = true
