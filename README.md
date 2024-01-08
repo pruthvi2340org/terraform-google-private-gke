@@ -38,3 +38,7 @@ Description: static ip for ingress and DNS
 # Release 1.0.9
 
 Description: Http load balancing enabled
+
+# Release 1.0.10
+
+Description: Firewall network tags to allow health checks for ingress backend
