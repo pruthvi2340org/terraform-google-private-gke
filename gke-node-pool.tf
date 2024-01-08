@@ -12,7 +12,7 @@ resource "google_container_node_pool" "general" {
   node_config {
     preemptible  = false
     machine_type = var.node_machine_type
-    tags = "allow-health-checks"
+    tags = ["allow-health-checks"]
     labels = {
       role = var.name
     }
