@@ -42,3 +42,11 @@ Description: Http load balancing enabled
 # Release 1.0.10
 
 Description: Firewall network tags to allow health checks for ingress backend
+
+# Release 1.0.12
+
+Description: minor change in the code
+
+# Release 1.0.13
+
+Description: Added cloud armor for denying 9.9.9.0/24 ip range
