@@ -12,7 +12,7 @@ resource "google_compute_firewall" "allow-ssh" {
 
 resource "google_compute_firewall" "ingress_allow_health_checks" {
   name    = "${var.name}-allow-health-checks"
-  network = "${var.name}-allow-ssh"
+  network = google_compute_network.main.name
 
   allow {
     protocol = "tcp"
