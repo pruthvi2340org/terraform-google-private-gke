@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "allow-ssh" {
-  name    = "${var.name}-allow-ssh"
+  name    = "${var.name}-allow-iap-ssh"
   network = google_compute_network.main.name
 
   allow {
@@ -7,7 +7,7 @@ resource "google_compute_firewall" "allow-ssh" {
     ports    = ["22"]
   }
 
-  source_ranges = ["0.0.0.0/0"]
+  source_ranges = ["35.191.0.0/16", "130.211.0.0/22"]
 }
 
 resource "google_compute_firewall" "ingress_allow_health_checks" {

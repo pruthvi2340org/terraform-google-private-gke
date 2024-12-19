@@ -84,3 +84,15 @@ Description: minor change in the code
 # Release 1.0.13
 
 Description: Added cloud armor for denying 9.9.9.0/24 ip range
+
+# Release 1.0.14
+
+Description: upgraded argocd helm chart to latest version
+
+# Release 1.0.15
+
+Description: upgraded argocd image to latest version
+
+# Release 1.0.16
+
+Description: allow ssh via IAP
